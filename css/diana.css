@@ -1,10 +1,16 @@
 .reveal {
   color: #002b36; 
+  font-size: 52px;
  }
   
 .reveal section img {
-	border-color: #002b36;
-	padding: 5px 5px;
+	margin: 15px 0px;
+  	background: rgba(255, 255, 255, 0.12);
+  	box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+.reveal section.pan img {
+	border: 5px #ffffff solid;
 }
 
 .reveal h1,
@@ -20,7 +26,7 @@
 	border: none; 
 	box-shadow: none;
 	margin: 0px 0px;
-	height: 140px;
+	height: 200px;
 }
 
 .reveal table.metod tr, .reveal table.metod td{
@@ -35,7 +41,7 @@
 
 .reveal table.muestras tr, .reveal table.muestras td,
 .reveal table.muestras th{
-	font-size: 24px;
+	font-size: 36px;
 	padding: 0px 5px;
 	text-align: right;
 }
@@ -49,12 +55,13 @@
 .reveal .mama h3,
 .reveal .mama h4,
 .reveal .mama h5,
-.reveal .mama h6 {
-  color: #ff69b4;
+.reveal .mama h6,
+.reveal .pinkish {
+  color: #e60f88;
  }
 
 .reveal section.mama img {
-	border-color: #ff69b4;
+	border-color:#e60f88;
 	padding: 5px 5px;
 }
 
@@ -114,3 +121,42 @@
 	padding: 5px 5px;
 }
 
+.reveal .bigger {
+	font-size: 58px;
+}
+
+.reveal ul li ul,
+.reveal ol li ul,
+.reveal .smaller {
+	font-size: 46px;
+}
+
+.reveal .ssmaller{
+	font-size: 38px;
+}
+
+.reveal .sssmaller{
+	font-size: 32px;
+}
+
+.reveal li.greenish,
+.reveal p.greenish{
+  color:#458464;
+ }
+
+ .reveal p.left {
+	text-align: left;
+   }
+  
+.reveal p.no-margin {
+	margin: 0px 0px;
+}
+
+.reveal .semi-out {
+	opacity: 0.5;
+}
+
+.scrollable-slide {
+    height: 1000px;
+    overflow-y: auto !important;
+}
